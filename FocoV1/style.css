@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+
+.titulo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: white;
+/* Para que aparezca la sombra del texto cuando prenden el foco */
+/* offset-x | offset-y | blur-radius | color */
+    text-shadow: 5px 10px 2px #597A83;
+}
+
+.luz {
+    background-color: #7A9BA4;
+}
+
+.oscuridad {
+    background-color: #597A83;
+}
+
+.foco {
+/* Para hacer la imagen responsiva */
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+/* Cambiar el cursor del usuario */
+    cursor: pointer;
+}
